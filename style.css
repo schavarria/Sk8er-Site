@@ -1,0 +1,8 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+body {
+	background: url(https://github.com/PC-FEE-Master/Sk8er-Site/blob/master/assets/bg.jpg?raw=true);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
