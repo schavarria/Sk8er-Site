@@ -2,11 +2,19 @@ html {box-sizing:border-box;}
 *,* :after, *:before {box-sizing:inherit;}
 
 body {
-	background: url(./assets/bg.jpg);
+	background: url(./assets/bg.jpg); 
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
+	
+
+	
 
 }
+
+
+
+
 #container{
 	width: 1000px;
 	margin: auto;
@@ -167,4 +175,28 @@ li:nth-child(4) {
 	border-bottom: 4px solid rgba(134,133,131,.7);
 	background-color:rgb(167,52,54);
 }
+
+.thirdContainer{
+	margin:auto;
+	padding-top: 45px;
+	padding-left: 20px;
+	height: 300px;
+	background-image: url(./assets/grid.png),
+	url(./assets/top-image.png);
+	background-blend-mode: overlay;
+	background-size:inherit, 1380px 880px;
+	background-position: 33% 28%;
+	background-repeat: no-repeat;
+	border: 6px solid rgb(253,253,253); 
+	position: relative;
+}
+
+
+
+	
+}
+
+
+
+
 
