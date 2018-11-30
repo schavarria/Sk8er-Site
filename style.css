@@ -2,7 +2,169 @@ html {box-sizing:border-box;}
 *,* :after, *:before {box-sizing:inherit;}
 
 body {
-	background: url(https://github.com/PC-FEE-Master/Sk8er-Site/blob/master/assets/bg.jpg?raw=true);
+	background: url(./assets/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
+#container{
+	width: 1000px;
+	margin: auto;
+
+
+
+}
+
+
+.firstContainer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0;
+	margin-top: 45px;
+	
+
+
+	
+}
+
+
+.iconcontainer{
+	border-left: 3px dotted rgb(225,222,219);
+	height:15px;
+
+
+	
+
+	
+
+	
+}
+
+.icons {
+	display: flex;
+	justify-content: flex-end;
+	position:relative;
+	padding-left: 0;
+	top:-30px;
+
+	
+}
+
+.subcontainer {
+	padding-right: 15px;
+	border-right: 3px dotted rgb(225,222,219);
+	height: 4px;
+	padding:0;
+	margin-right: 40px;
+	
+
+	
+}
+
+.sub {
+	color: rgb(225,222,219);
+	position:relative;
+	padding-right:4px;
+	top:-23px;
+	
+	
+}
+
+
+li {
+	list-style: none;
+	margin: 5px;
+
+}
+
+li:nth-child(1) {
+	width:30px;
+	height: 30px;
+	color:rgb(113,128,171);
+	border-bottom: 3px solid rgba(128,123,122,.6);
+	text-align: center;
+	background-color: rgb(70,89,147);
+	padding-top: 5px;
+}
+
+li:nth-child(2) {
+	width:30px;
+	height:30px;
+	color:rgb(203,170,113);
+	border-bottom: 3px solid rgba(128,123,122,.6);
+	text-align: center;
+	background-color:rgb(182,135,64);
+	padding-top: 5px;
+}
+
+
+li:nth-child(3) {
+	width:30px;
+	height:30px;
+	color:rgb(121,139,173);
+	border-bottom: 3px solid rgba(128,123,122,.6);
+	text-align: center;
+	background-color:rgb(99,126,174);
+	padding-top: 5px;
+}
+
+li:nth-child(4) {
+	width:30px;
+	height:30px;
+	color:rgb(184,109,100);
+	border-bottom: 4px solid rgba(128,123,122,.6);
+	text-align: center;
+	background-color:rgb(166,65,52);
+	padding-top: 5px;
+}
+
+.secondContainer{
+	display: flex;
+	justify-content: space-between;
+
+	
+
+}
+
+.news{
+	text-align: center;
+	padding:8px;
+	width: 200px;
+	height: 35px;
+	margin-right:10px; 
+	color:rgb(247,237,237);
+	border-bottom: 4px solid rgba(134,133,131,.7);
+	background-color:rgb(167,52,54);
+ 
+}
+.skateboarders {
+	text-align: center;
+	padding:8px;
+	width: 200px;
+	height: 35px;
+	color:rgb(247,237,237);
+	border-bottom: 4px solid rgba(134,133,131,.7);
+	background-color:rgb(167,52,54);
+}
+
+.design{
+	text-align: center;
+	padding:8px;
+	width: 200px;
+	height: 35px;
+	color:rgb(247,237,237);
+	border-bottom: 4px solid rgba(134,133,131,.7);
+	background-color:rgb(167,52,54);
+}
+
+.contacts{
+	text-align: center;
+	padding:8px;
+	width: 200px;
+	height: 35px;
+	color:rgb(247,237,237);
+	border-bottom: 4px solid rgba(134,133,131,.7);
+	background-color:rgb(167,52,54);
+}
+
