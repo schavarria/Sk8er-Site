@@ -6,13 +6,16 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	font-family: sans-serif;
 	
 
 	
 
 }
 
-
+p{
+	margin: 0;
+}
 
 
 #container{
@@ -29,11 +32,9 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 	padding: 0;
-	margin-top: 45px;
+	margin-top: 30px;
 	
 
-
-	
 }
 
 
@@ -74,7 +75,7 @@ body {
 	color: rgb(225,222,219);
 	position:relative;
 	padding-right:4px;
-	top:-23px;
+	top:-8px;
 	
 	
 }
@@ -128,6 +129,7 @@ li:nth-child(4) {
 }
 
 .secondContainer{
+	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
 
@@ -177,7 +179,7 @@ li:nth-child(4) {
 }
 
 .thirdContainer{
-	margin:auto;
+	margin-top:20px;
 	padding-top: 45px;
 	padding-left: 20px;
 	height: 300px;
@@ -192,11 +194,45 @@ li:nth-child(4) {
 }
 
 
+.fourthContainer{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+
+
+
+
+
+}
+
+.dContainer, .dContainerTwo, .dContainerT {
+	background-color: white;
+	width: 315px;
+	height:340px;
+
 
 	
 }
+.mullen, .barbee, .hawk {
+padding: 30px;
 
+}
 
+.title {
+	padding-top: 3px;
+}
+.date{
+ 	padding-top: 15px;
+}
 
-
+.info{
+	padding-top: 20px;
+	margin:  2px;
+}
+.read{
+	margin-top: 5px;
+	padding-top: 10px;
+	text-align: center;
+	color: rgb(168,54,48);
+}
 
