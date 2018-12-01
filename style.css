@@ -132,9 +132,6 @@ li:nth-child(4) {
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
-
-	
-
 }
 
 .news{
@@ -145,9 +142,9 @@ li:nth-child(4) {
 	margin-right:10px; 
 	color:rgb(247,237,237);
 	border-bottom: 4px solid rgba(134,133,131,.7);
-	background-color:rgb(167,52,54);
- 
+	background-color:rgb(167,52,54); 
 }
+
 .skateboarders {
 	text-align: center;
 	padding:8px;
@@ -198,29 +195,22 @@ li:nth-child(4) {
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
-
-
-
-
-
 }
 
 .dContainer, .dContainerTwo, .dContainerT {
 	background-color: white;
 	width: 315px;
-	height:340px;
-
-
-	
+	height:340px;	
 }
+
 .mullen, .barbee, .hawk {
 padding: 30px;
-
 }
 
 .title {
 	padding-top: 3px;
 }
+
 .date{
  	padding-top: 15px;
 }
@@ -229,6 +219,7 @@ padding: 30px;
 	padding-top: 20px;
 	margin:  2px;
 }
+
 .read{
 	margin-top: 5px;
 	padding-top: 10px;
@@ -236,3 +227,61 @@ padding: 30px;
 	color: rgb(168,54,48);
 }
 
+.fifthContainer{
+	margin-top: 20px;
+	overflow: auto;
+	width:1000px;
+	position: relative;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 40px;
+
+	
+}
+
+.picOne, .picTwo, .picThree, .picFour{
+	margin: 7px;
+	width: 318px;
+	height: 240px;
+	float:left;
+	color:white;
+
+}
+.picOne{
+	padding-top: 60px;
+	text-align: center;
+	background-image: url(./assets/sk8er-4.png);
+	background-repeat: no-repeat;
+	background-size: 330px 240px;
+	background-position: 20% 30%;
+	border: 6px solid white;
+}
+
+.picTwo{
+	padding-top: 60px;
+	text-align: center;
+	background-image: url(./assets/sk8er-3.png);
+	border: 6px solid white;
+}
+
+ .picThree {
+ 	padding-top: 90px;
+ 	text-align: center;
+    width: 652px;
+    background-image: url(./assets/sk8er-1.png);
+    background-position: 5% 70%;
+    border: 6px solid white;
+
+ }
+
+ .picFour{
+ 	padding-top: 200px;
+	text-align: center;
+ 	height: 490px;
+ 	margin-top: -245px;
+ 	background-image: url(./assets/sk8er-2.png);
+ 	background-position: 78% 50%;
+ 	border: 6px solid white;
+
+
+ }
