@@ -282,6 +282,28 @@ padding: 30px;
  	background-image: url(./assets/sk8er-2.png);
  	background-position: 78% 50%;
  	border: 6px solid white;
-
-
  }
+
+.sixthContainer {
+	background-color: white;
+	border: solid white 3px;
+	text-align: center;
+	padding:5px;
+	
+
+}
+.skateboards{
+	display:flex;
+	justify-content: space-around;
+}
+
+}
+
+
+
+
+
+
+
+
+
