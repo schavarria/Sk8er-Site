@@ -9,11 +9,18 @@ body {
 	font-family: sans-serif;
 	
 
-	
-
 }
 
-p{
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
+p {
 	margin: 0;
 }
 
@@ -208,14 +215,17 @@ padding: 30px;
 }
 
 .title {
+	font-weight: bold;
 	padding-top: 3px;
 }
 
 .date{
  	padding-top: 15px;
+ 	color:rgb(190,190,190);
 }
 
 .info{
+	color: rgb(99,99,99);
 	padding-top: 20px;
 	margin:  2px;
 }
@@ -290,20 +300,138 @@ padding: 30px;
 	text-align: center;
 	padding:5px;
 	
-
 }
 .skateboards{
 	display:flex;
 	justify-content: space-around;
 }
 
+.lastContainer{
+	margin-top: 20px;
+	background-color: white;
+	width:1000px;
+	display: flex;
+	
+
+}
+
+.sectionOne, .sectionTwo, {
+	border:1px solid blue;
+	 
+
+}
+
+.sectionOne{
+	width:500px;
+	height:300px;
+}
+
+.contactContainer{
+	padding: 20px;
+	font-size: 18px;
+}
+
+.infoContainer{
+	color:rgb(86,86,86);
+	padding: 15px;
+	font-family: Helvatica;
+}
+
+.bottomIcons{
+	margin:20px;
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ fieldset {border:none;
+ 	margin: 0;}
+
+.sectionTwo{
+	padding:20px;
+	width: 500px;
+	height: 300px;
+	
+}
+
+.name {
+	border-color: rgb(181,181,181); 
+	border-style: 1px inset;
+	margin-top: 10px;
+	width: 450px;
+	height: 30px;
+}
+
+.email{
+	border-color: rgb(181,181,181); 
+	border-style: 1px inset;
+	margin-top: 10px;
+	width: 450px;
+	height: 30px;
+}
+
+.comments{
+	border-color: rgb(181,181,181); 
+	border-style: 1px inset;
+	margin-top: 10px;
+	width: 450px;
+	height: 130px;
+}
+.submit{
+	width:100px;
+	height: 20px;
+	margin-top: 10px;
+	color:white;
+	background-color: rgba(167,54,52);
+	margin-left:350px;
+
 }
 
 
+.bottomIcons {
+	width: 150px;
+	list-style: none;
+	
+
+}
+
+.iconOne {
+	width:30px;
+	height: 30px;
+	color:rgb(104,104,104);
+	text-align: center;
+	background-color: rgb(74,74,74);
+	padding-top: 6px;
+	
+}
+
+.iconTwo {
+	width:30px;
+	height:30px;
+	color:rgb(182,182,182);
+	text-align: center;
+	background-color:rgb(170,170,170);
+	padding-top: 6px;
+
+}
 
 
+.iconThree {
+	width:30px;
+	height:30px;
+	color:rgb(154,154,154);
+	text-align: center;
+	background-color:rgb(123,123,123);
+	padding-top: 6px;
 
+}
 
-
+.iconFour {
+	width:30px;
+	height:30px;
+	color:rgb(117,117,117);
+	text-align: center;
+	background-color:rgb(151,151,151);
+	padding-top: 6px;
 
 
