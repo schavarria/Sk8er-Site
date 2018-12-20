@@ -16,29 +16,29 @@ body {
   and (min-device-width: 320px) 
   and (max-device-width: 620px) {
   	.skateboards{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	background-color: white;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		background-color: white;
 	}
+
 	.iconcontainer{
-	display: none;
+		display: none;
 	}
 
 	.icons {
-	display: none;
+		display: none;
 	}
 
 	.subcontainer {
-	display: none;
-	
+		display: none;
 	}
 
 	.sub {
-	display: none;
+		display: none;
 	}
 	.secondContainer{
-	display: block;
+		display: block;
 	}
 
 	p {
@@ -46,274 +46,540 @@ body {
 	}
 
 	.news, .skateboarders, .design, .contacts{
-	margin-bottom: 10px;
-	text-align: center;
-	padding:50px;
-	width: 100%;
-	height: 150px;
-	margin-right:10px; 
-	font-size: 55px;
-	color:rgb(247,237,237);
-	border-bottom: 4px solid rgba(134,133,131,.7);
-	background-color:rgb(167,52,54); 
+		margin-bottom: 10px;
+		text-align: center;
+		padding:50px;
+		width: 100%;
+		height: 150px;
+		margin-right:10px; 
+		font-size: 55px;
+		color:rgb(247,237,237);
+		border-bottom: 4px solid rgba(134,133,131,.7);
+		background-color:rgb(167,52,54); 
 	}
+
 	.thirdContainer{
-	margin-top:20px;
-	padding-top: 45px;
-	padding-left: 20px;
-	height: 300px;
-	background-image: url(./assets/grid.png),
-	url(./assets/top-image.png);
-	background-blend-mode: overlay;
-	background-size:inherit, 1380px 880px;
-	background-position: 33% 28%;
-	background-repeat: no-repeat;
-	border: 6px solid rgb(253,253,253); 
-	position: relative;
+		margin-top:20px;
+		padding-top: 45px;
+		padding-left: 20px;
+		height: 300px;
+		background-image: url(./assets/grid.png),
+		url(./assets/top-image.png);
+		background-blend-mode: overlay;
+		background-size:inherit, 1380px 880px;
+		background-position: 33% 28%;
+		background-repeat: no-repeat;
+		border: 6px solid rgb(253,253,253); 
+		position: relative;
 	}
+
 	.fourthContainer{
-	margin-top: 40px;
-	display: block;
-	justify-content: space-between;
+		margin-top: 40px;
+		display: block;
+		justify-content: space-between;
 	}
+
 	.dContainer, .dContainerTwo, .dContainerT {
-	background-color: white;
-	width: 85%px;
-	
-	margin-bottom: 20px;
-	font-size: 35px;	
+		background-color: white;
+		width: 85%px;
+		margin-bottom: 20px;
+		font-size: 35px;	
 	}
 
 	.mullen, .barbee, .hawk {
-	padding: 30px;
+		padding: 30px;
 	}
 
 	.title {
-	font-weight: bold;
-	padding-top: 3px;
+		font-weight: bold;
+		padding-top: 3px;
 	}
 
 	.date{
- 	padding-top: 15px;
- 	color:rgb(190,190,190);
+ 		padding-top: 15px;
+ 		color:rgb(190,190,190);
 	}
 
 	.info{
-	color: rgb(99,99,99);
-	padding-top: 20px;
-	margin:  2px;
+		color: rgb(99,99,99);
+		padding-top: 20px;
+		margin:  2px;
 	}
 
 	.read{
-	margin-top: 5px;
-	padding-top: 10px;
-	text-align: center;
-	color: rgb(168,54,48);
+		margin-top: 5px;
+		padding-top: 10px;
+		text-align: center;
+		color: rgb(168,54,48);
 	}
-	.fifthContainer{
-	margin-top: 20px;
-	overflow: auto;
-	width:1000px;
-	position: relative;
-	font-family: sans-serif;
-	font-weight: bolder;
-	font-size: 40px;
 
-	
+	.fifthContainer{
+		margin-top: 20px;
+		overflow: auto;
+		width:1000px;
+		position: relative;
+		font-family: sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
 	}
 
 	.picOne, .picTwo, .picThree, .picFour{
-	margin: 7px;
-	width: 318px;
-	height: 240px;
-	float:left;
-	color:white;
-
+		margin: 7px;
+		width: 318px;
+		height: 240px;
+		float:left;
+		color:white;
 	}
+
 	.picOne{
-	padding-top: 60px;
-	text-align: center;
-	background-image: url(./assets/sk8er-4.png);
-	background-repeat: no-repeat;
-	background-size: 330px 240px;
-	background-position: 20% 30%;
-	border: 6px solid white;
+		padding-top: 60px;
+		text-align: center;
+		background-image: url(./assets/sk8er-4.png);
+		background-repeat: no-repeat;
+		background-size: 330px 240px;
+		background-position: 20% 30%;
+		border: 6px solid white;
 	}
 
 	.picTwo{
-	padding-top: 60px;
-	text-align: center;
-	background-image: url(./assets/sk8er-3.png);
-	border: 6px solid white;
+		padding-top: 60px;
+		text-align: center;
+		background-image: url(./assets/sk8er-3.png);
+		border: 6px solid white;
 	}
 
  	.picThree {
- 	padding-top: 90px;
- 	text-align: center;
-    width: 652px;
-    background-image: url(./assets/sk8er-1.png);
-    background-position: 5% 70%;
-    border: 6px solid white;
+ 		padding-top: 90px;
+ 		text-align: center;
+    	width: 652px;
+    	background-image: url(./assets/sk8er-1.png);
+    	background-position: 5% 70%;
+    	border: 6px solid white;
 
  	}
 
  	.picFour{
- 	padding-top: 200px;
-	text-align: center;
- 	height: 490px;
- 	margin-top: -245px;
- 	background-image: url(./assets/sk8er-2.png);
- 	background-position: 78% 50%;
- 	border: 6px solid white;
+ 		padding-top: 200px;
+		text-align: center;
+ 		height: 490px;
+ 		margin-top: -245px;
+ 		background-image: url(./assets/sk8er-2.png);
+ 		background-position: 78% 50%;
+ 		border: 6px solid white;
  	}
- 	.lastContainer{
-	margin-top: 20px;
-	background-color: white;
-	width:1000px;
-	display: flex;
-	flex-wrap: wrap;
 
+ 	.lastContainer{
+		margin-top: 20px;
+		background-color: white;
+		width:1000px;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.sectionOne, .sectionTwo, {
-	border:1px solid blue;
-
-	 
-
+		border:1px solid blue;
 	}
 
 	.sectionOne{
-	width:100%;
-	height:300px;
+		width:100%;
+		height:300px;
 	}
 
 	.contactContainer{
-	padding: 20px;
-	font-size: 55px;
+		padding: 20px;
+		font-size: 55px;
 	}
 
 	.infoContainer{
-	color:rgb(86,86,86);
-	padding: 15px;
-	font-family: Helvatica;
-	font-size: 40px;
+		color:rgb(86,86,86);
+		padding: 15px;
+		font-family: Helvatica;
+		font-size: 40px;
 	}
 
 	.bottomIcons{
-	margin:20px;
-	width: 100px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+		margin:20px;
+		width: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
- fieldset {border:none;
- 	margin: auto;
+
+ 	fieldset {border:none;
+ 		margin: auto;
  	}
 
 	.sectionTwo{
 	margin-top: 200px;
 	padding:20px;
 	width: 100%;
-	
-	
 	}
 
 	.name {
-	border-color: rgb(181,181,181); 
-	border-style: 1px inset;
-	margin-top: 10px;
-	width: 450px;
-	height: 60px;
-	font-size: 30px;
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 60px;
+		font-size: 30px;
 	}
 
 	.email{
-	border-color: rgb(181,181,181); 
-	border-style: 1px inset;
-	margin-top: 10px;
-	width: 450px;
-	height: 60px;
-	font-size: 30px;
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 60px;
+		font-size: 30px;
 	}
 
 	.comments{
-	border-color: rgb(181,181,181); 
-	border-style: 1px inset;
-	margin-top: 10px;
-	width: 450px;
-	height: 350px;
-	font-size: 30px;
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 350px;
+		font-size: 30px;
 	}
-	.submit{
-	width:200px;
-	height: 40px;
-	margin-top: 10px;
-	color:white;
-	background-color: rgba(167,54,52);
-	margin-left:350px;
-	font-size: 30px;
 
+	.submit{
+		width:200px;
+		height: 40px;
+		margin-top: 10px;
+		color:white;
+		background-color: rgba(167,54,52);
+		margin-left:350px;
+		font-size: 30px;
 	}
 
 
 	.bottomIcons {
-	width: 150px;
-	list-style: none;
-	
-
+		width: 150px;
+		list-style: none;
 	}
 
 	.iconOne {
-	width:30px;
-	height: 30px;
-	color:rgb(104,104,104);
-	text-align: center;
-	background-color: rgb(74,74,74);
-	padding-top: 6px;
-	
+		width:30px;
+		height: 30px;
+		color:rgb(104,104,104);
+		text-align: center;
+		background-color: rgb(74,74,74);
+		padding-top: 6px;
 	}
 
 	.iconTwo {
-	width:30px;
-	height:30px;
-	color:rgb(182,182,182);
-	text-align: center;
-	background-color:rgb(170,170,170);
-	padding-top: 6px;
-
+		width:30px;
+		height:30px;
+		color:rgb(182,182,182);
+		text-align: center;
+		background-color:rgb(170,170,170);
+		padding-top: 6px;
 	}
 
 
 	.iconThree {
-	width:30px;
-	height:30px;
-	color:rgb(154,154,154);
-	text-align: center;
-	background-color:rgb(123,123,123);
-	padding-top: 6px;
-
+		width:30px;
+		height:30px;
+		color:rgb(154,154,154);
+		text-align: center;
+		background-color:rgb(123,123,123);
+		padding-top: 6px;
 	}
 
 	.iconFour {
-	width:30px;
-	height:30px;
-	color:rgb(117,117,117);
-	text-align: center;
-	background-color:rgb(151,151,151);
-	padding-top: 6px;
-
+		width:30px;
+		height:30px;
+		color:rgb(117,117,117);
+		text-align: center;
+		background-color:rgb(151,151,151);
+		padding-top: 6px;
 	}
-
-
-	
-
-
 
   }
   
   @media only screen 
   and (min-device-width: 621px) 
   and (max-device-width: 921px) {
+  	  	.skateboards{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		background-color: white;
+	}
+	
+	.iconcontainer{
+		display: none;
+	}
+
+	.icons {
+		display: none;
+	}
+
+	.subcontainer {
+		display: none;
+	}
+
+	.sub {
+		display: none;
+	}
+	.secondContainer{
+		display: flex;
+		justify-content: space-between;
+		margin-right: -30px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.news, .skateboarders, .design, .contacts{
+		margin-bottom: 10px;
+		text-align: center;
+		padding:12px;
+		width: 235px;
+		height: 50px;		
+		font-size: 20px;
+		color:rgb(247,237,237);
+		border-bottom: 4px solid rgba(134,133,131,.7);
+		background-color:rgb(167,52,54); 
+	}
+
+	.thirdContainer{
+		margin-top:20px;
+		padding-top: 45px;
+		padding-left: 20px;
+		height: 300px;
+		background-image: url(./assets/grid.png),
+		url(./assets/top-image.png);
+		background-blend-mode: overlay;
+		background-size:inherit, 1380px 880px;
+		background-position: 33% 28%;
+		background-repeat: no-repeat;
+		border: 6px solid rgb(253,253,253); 
+		position: relative;
+	}
+
+	.fourthContainer{
+		margin-top: 40px;
+		display: block;
+		justify-content: space-between;
+	}
+
+	.dContainer, .dContainerTwo, .dContainerT {
+		background-color: white;
+		width: 85%px;
+		margin-bottom: 20px;
+		font-size: 28px;	
+	}
+
+	.mullen, .barbee, .hawk {
+		padding: 30px;
+	}
+
+	.title {
+		font-weight: bold;
+		padding-top: 3px;
+	}
+
+	.date{
+ 		padding-top: 15px;
+ 		color:rgb(190,190,190);
+	}
+
+	.info{
+		color: rgb(99,99,99);
+		padding-top: 20px;
+		margin:  2px;
+	}
+
+	.read{
+		margin-top: 5px;
+		padding-top: 10px;
+		text-align: center;
+		color: rgb(168,54,48);
+	}
+
+	.fifthContainer{
+		margin-top: 20px;
+		overflow: auto;
+		width:1000px;
+		position: relative;
+		font-family: sans-serif;
+		font-weight: bolder;
+		font-size: 35px;
+	}
+
+	.picOne, .picTwo, .picThree, .picFour{
+		margin: 7px;
+		width: 318px;
+		height: 240px;
+		float:left;
+		color:white;
+	}
+
+	.picOne{
+		padding-top: 60px;
+		text-align: center;
+		background-image: url(./assets/sk8er-4.png);
+		background-repeat: no-repeat;
+		background-size: 330px 240px;
+		background-position: 20% 30%;
+		border: 6px solid white;
+	}
+
+	.picTwo{
+		padding-top: 60px;
+		text-align: center;
+		background-image: url(./assets/sk8er-3.png);
+		border: 6px solid white;
+	}
+
+ 	.picThree {
+ 		padding-top: 90px;
+ 		text-align: center;
+    	width: 652px;
+    	background-image: url(./assets/sk8er-1.png);
+    	background-position: 5% 70%;
+    	border: 6px solid white;
+
+ 	}
+
+ 	.picFour{
+ 		padding-top: 200px;
+		text-align: center;
+ 		height: 490px;
+ 		margin-top: -245px;
+ 		background-image: url(./assets/sk8er-2.png);
+ 		background-position: 78% 50%;
+ 		border: 6px solid white;
+ 	}
+
+ 	.lastContainer{
+		margin-top: 20px;
+		background-color: white;
+		width:1000px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.sectionOne, .sectionTwo, {
+		border:1px solid blue;
+	}
+
+	.sectionOne{
+		width:100%;
+		height:300px;
+	}
+
+	.contactContainer{
+		padding: 20px;
+		font-size: 40px;
+	}
+
+	.infoContainer{
+		color:rgb(86,86,86);
+		padding: 15px;
+		font-family: Helvatica;
+		font-size: 30px;
+	}
+
+	.bottomIcons{
+		margin:20px;
+		width: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+ 	fieldset {border:none;
+ 		margin: auto;
+ 	}
+
+	.sectionTwo{
+	margin-top: 200px;
+	padding:20px;
+	width: 100%;
+	}
+
+	.name {
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 60px;
+		font-size: 20px;
+	}
+
+	.email{
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 60px;
+		font-size: 20px;
+	}
+
+	.comments{
+		border-color: rgb(181,181,181); 
+		border-style: 1px inset;
+		margin-top: 10px;
+		width: 450px;
+		height: 350px;
+		font-size: 20px;
+	}
+
+	.submit{
+		width:200px;
+		height: 40px;
+		margin-top: 10px;
+		color:white;
+		background-color: rgba(167,54,52);
+		margin-left:350px;
+		font-size: 20px;
+	}
+
+
+	.bottomIcons {
+		width: 150px;
+		list-style: none;
+	}
+
+	.iconOne {
+		width:30px;
+		height: 30px;
+		color:rgb(104,104,104);
+		text-align: center;
+		background-color: rgb(74,74,74);
+		padding-top: 6px;
+	}
+
+	.iconTwo {
+		width:30px;
+		height:30px;
+		color:rgb(182,182,182);
+		text-align: center;
+		background-color:rgb(170,170,170);
+		padding-top: 6px;
+	}
+
+
+	.iconThree {
+		width:30px;
+		height:30px;
+		color:rgb(154,154,154);
+		text-align: center;
+		background-color:rgb(123,123,123);
+		padding-top: 6px;
+	}
+
+	.iconFour {
+		width:30px;
+		height:30px;
+		color:rgb(117,117,117);
+		text-align: center;
+		background-color:rgb(151,151,151);
+		padding-top: 6px;
+	}
 
   }
   
